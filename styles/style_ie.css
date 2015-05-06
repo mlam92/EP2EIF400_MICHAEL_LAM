@@ -1,0 +1,9 @@
+@media (min-width:950px){
+	h5{
+		color: red;
+	}
+	
+	#ie{
+		color: red;
+	}
+}
