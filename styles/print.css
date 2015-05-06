@@ -1,0 +1,16 @@
+@media print{
+
+	.container{
+		background: red;
+	}
+	.contBody{
+		display:none;
+	}
+	.nav-footer{
+		display: none;
+	}
+	
+	h3{
+		color:#0099CC;
+	}
+}

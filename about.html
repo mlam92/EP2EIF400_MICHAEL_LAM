@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<title>About Us</title>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="styles/reset.css" rel="stylesheet" type="text/css">
+		<link href="libs/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+		<link href="styles/print.css" rel="stylesheet" type="text/css">
+		<link href="styles/style.css" rel="stylesheet" type="text/css">	
+	</head>
+	
+	<body>
+		<div class="container">
+			<nav class="navbar ">
+			  <div class="container-fluid">
+				<div class="navbar-header">
+				  <!-- <a class="navbar-brand" href="#">WebSiteName</a>-->
+				  <h1>UNA Web Alfa</h1>
+				</div>
+				<div>
+				
+				  <ul class="nav navbar-nav navbar-right">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li> 
+					<li><a href="courses.html">Courses</a></li> 
+					<li><a href="contact.html">Contact</a></li> 
+				  </ul>
+				</div>
+			  </div>
+			</nav>
+			
+			<div>
+				<ol class="breadcrumb">
+				  <li><a href="index.html">Home</a></li>
+				  <li class="active">About</li>
+				</ol>
+			</div>
+			
+			<div class="dropdown">
+				<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">
+				Who are we?
+				<span class="caret"></span>
+			  </button>
+			  <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+				<li role="presentation" class="active"><a role="menuitem" tabindex="-1" href="#">Who are we?</a></li>
+				<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Academic staff</a></li>
+				<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Students</a></li>
+				<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Projects</a></li>
+				<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Site Map</a></li>
+			  </ul>
+			</div>
+
+			<div class="row">
+			  <div class="col-md-8">
+				<h2>Who are we?</h2>
+				<h3>Vision</h3>
+				<p>
+				   Leading like school , development of information technologies and communication in Costa Rica through its creation, promotion and use in different areas of knowledge as an engine for human development to help achieve a just, equitable society solidarity 
+				</p>
+				<h3>Mission</h3>
+				<p>
+				  Training highly competitive professionals in information technology and communication, and educational information , and contribute to the training of the population in the use of information technology to promote human development of Costa Rican society .
+				</p>
+				<h3>Strategic goals</h3>
+				<p>* The training of professionals responsible and committed to the technological and human development.</p>
+				<p>* Strengthening the technological culture of the society in its various activities.</p>
+				<p>* Research to improve the application of information technology and communication in society .</p>
+				<p>* Continuous updating of its staff to improve teaching quality and to meet the needs of Costa Rican society .</p>
+			  </div>
+			  <div class="col-md-4">
+				<img src="images/una2.jpg" alt="UNA University"  data-toggle="tooltip" data-placement="bottom" title="UNA University">
+			  </div>
+			 
+			</div>
+			
+			<div>	<!--Codigo del modal-->
+				<button type="button" class="btn btn-info btn-sm " data-toggle="modal" data-target="#myModal" data-toggle="tooltip" data-placement="bottom" title="More about us">More...</button>
+						<!-- Modal -->
+				<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							  <div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+								<h3 class="modal-title" id="myModalLabel">Aditional information</h3>
+							  </div>
+							  <div class="modal-body">
+								<img src="images/una.jpg" alt="UNA University"  data-toggle="tooltip" data-placement="bottom" title="UNA University">
+								<p>Location: Omar Dengo Campus, Heredia, Costa Rica</p>
+								<p>Phone Center: 2277-3000, 2277-3010.</p>
+								<p>Web Site: webmaster@una.cr</p>
+								<p>Registration Department(Admission and Registration): registro@una.cr</p>
+							  </div>
+							  <div class="modal-footer">
+								<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+							  </div>
+						</div>
+					</div>
+				</div>
+			</div>
+				
+			<div class="row page page-footer">
+			  <nav class="nav-footer">
+				<ul class="nav nav-tabs">
+				  <li><a href="index.html">Home</a></li>
+				  <li class="active"><a href="about.html">About</a></li>
+				  <li><a href="courses.html">Courses</a></li>
+				  <li><a href="contact.html">Contact</a></li>
+				</ul>
+			  </nav>
+			  <span>Copyright &copy; 2015. Curso de programación Web</span>
+			</div>	
+		</div> <!--fin del container grande-->
+		
+		<!--Scripts al final para que la pagina cargue mas rapido-->
+		<script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.11.2.min.js"></script>
+		<script type="text/javascript" src="libs/js/bootstrap.min.js"></script>
+		
+	</body>
+</html>
